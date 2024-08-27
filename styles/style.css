@@ -1,0 +1,157 @@
+*:root {
+    width: 100%;
+    height: 100%;
+    --cor-de-fundo: #a3b5bd;
+    --cor-branco: #fff;
+    --cor-azul: #0A3871;
+    --cor-fundo-btn: #D8DFE8;
+    --cor-informacao: #495057;
+    --fonte-principal: "Inter";
+    --fonte-secundaria: "sans-serif";
+
+}
+
+
+body {
+
+    background: var(--cor-de-fundo);
+    font-weight: 400;
+    width: auto;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1em;
+    margin: 3em;
+    
+}
+
+header {
+
+    width: auto;
+    height: auto;
+    align-items: flex-start;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.logoAlura {
+    width: auto;
+
+}
+
+main {
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.area-encriptar {
+    background-color: var(--cor-de-fundo);
+    display: block;
+    justify-content: space-evenly;
+    width: 30em;
+    height: 45em;
+        
+}
+
+.text-encriptar {
+    width: 32em;
+    height: 32em;
+    background-color: var(--cor-de-fundo);
+    border: none;
+    margin: 4em 1em .5em 1em;
+    padding: 4em 1em 1em 1em;
+    text-transform: lowercase;
+    text-align: center;
+
+}
+
+::placeholder {
+    color: var(--cor-azul);
+
+}
+
+.text-area:focus {
+    outline: none;
+
+}
+
+.informacao {
+    color: var(--cor-informacao);
+    font-size: 1.2em;
+    margin: 0 0 0 1em;
+    padding: 0;
+     
+}
+
+.h6 {
+    margin: 0;
+    padding: 0;
+}
+
+.buttons {
+    display: flex;
+    margin: .5em;
+
+}
+
+.btn-encriptar {
+    background-color: var(--cor-azul);
+    border: .1em solid var(--cor-azul);
+    border-radius: 1.5em;
+    color: var(--cor-branco);
+    cursor: pointer;
+    height: 4.2em;
+    margin-left: 1em;
+    width: 20.5em;
+    
+}
+
+.btn-desencriptar {
+    background: var(--cor-fundo-btn-decripto);
+    border: .1em solid var(--cor-azul);
+    border-radius: 1.5em;
+    color: var(--cor-azul);
+    cursor: pointer;
+    height: 4.2em;
+    margin-left: 1em ;
+    padding: 0;
+    width: 20.5em;
+
+}
+
+.text-copiar {
+    width: 24em;
+    height: 36em;
+    margin: 3.3em 1em .5em 1em;
+    padding: 2em;
+    background: var(--cor-branco);
+}
+
+.mensagem {
+    background: var(--cor-branco);
+    background-image: url(/assets/img-encripto.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    width: 24em;
+    height: 33em;
+    border: none;
+    color: var(--cor-azul);
+    margin: 1em;
+    padding: 2em;
+    text-transform: lowercase;
+
+}
+
+.btn-copiar {
+    border: .1em solid var(--cor-azul);
+    border-radius: 1.5em;
+    color: var(--cor-azul);
+    cursor: pointer;
+    margin-left: 5em;
+    height: 4.2em;
+    width: 20.5em;
+    
+}
+
